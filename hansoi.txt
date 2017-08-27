@@ -1,0 +1,28 @@
+def hansoi()
+  rod1=[3, 2, 1]
+  rod2=[]
+  rod3=[]
+  
+  while rod3 != [3, 2, 1]
+    
+    
+    puts "Which pile do you want to take from?"
+    response= gets
+    popped= #{response}.pop
+    
+    puts "Which pile do you want ot move to?"
+    response2= gets
+    #{response2}<<popped.to_i
+
+    puts "See an array value"
+    response3= gets
+    puts response3
+end
+
+Puts "You are a winner!!!!!!!!!!!"
+
+end
+
+hansoi()
+
+#Hello Ryan
